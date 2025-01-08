@@ -1,19 +1,11 @@
 ﻿
 
 
-using OOP;
+using ConstructorFirst;
+
+Baby baby = new Baby();
+baby.Info();
 
 
-//new kullanarak bir nesneler olusturuldu
-Person teacher = new Person("John", "Doe", new DateTime(1980, 1, 1));
-Person teacher1 = new Person("Jon", "o", new DateTime(1982, 5,6));
-Person student = new Person("Jane", "Doe", new DateTime(2000, 1, 1));
-//Info methodu cagırıldı
-teacher.Info();
-student.Info();
-
-
-
-
-
-
+Baby baby1 = new Baby("Furkan", "Cengiz");
+baby1.Info();
